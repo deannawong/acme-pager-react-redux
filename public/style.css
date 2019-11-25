@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+}
+table {
+  width: 100%;
+  text-align: left;
+  border: 2px solid palegoldenrod;
+  padding: 0.25rem;
+}
+
+th {
+  padding: 1rem;
+  background-color: palegoldenrod;
+}
+td {
+  padding: 1rem;
+}
+table tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+button {
+  height: 2rem;
+  background-color: palegoldenrod;
+  border-radius: 0.5rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  width: 60vw;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+a {
+  color: darkslategrey;
+  border: 2px solid palegoldenrod;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+.selected {
+  background-color: lightgoldenrodyellow;
+}
